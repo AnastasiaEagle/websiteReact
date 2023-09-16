@@ -1,0 +1,40 @@
+.menu {
+  padding-top: 23px;
+  margin: 0;
+}
+.menu .menu__list .menu__list-menu .menu__list-menu_item + .menu__list-menu_item {
+  margin-left: 60px;
+}
+.menu .menu__list .menu__list-menu .menu__list-menu_item .menu__link {
+  color: #FFF;
+}
+.menu .menu__list .menu__list-auth .menu__list-auth_register .menu__link {
+  color: #FFF;
+}
+.menu .menu__list .menu__list-auth .menu__list-auth_login {
+  margin-left: 20px;
+}
+.menu .menu__list .menu__list-auth .menu__list-auth_login .menu__login-btn {
+  color: #1B1B1B;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 100px;
+  padding: 7px 24px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.menu .menu__list .menu__list-auth .menu__list-auth_login .menu__login-btn:hover {
+  background-color: #eaeaea;
+}
+
+.footer .menu .menu__list .menu__list-menu .menu__list-menu_item .menu__link {
+  color: #1b1b1b;
+}
+.footer .menu .menu__list .menu__list-auth .menu__list-auth_register .menu__link {
+  color: #1b1b1b;
+}
+.footer .menu .menu__list .menu__list-auth .menu__login-btn {
+  color: #fff;
+  background: rgb(22, 147, 209);
+  background: linear-gradient(145deg, rgb(22, 147, 209) 0%, rgb(246, 246, 38) 100%);
+}

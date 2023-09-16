@@ -1,0 +1,9 @@
+.card__right_inf {
+  max-width: 355px;
+}
+.card__right_inf .card__right_text {
+  font-size: 14px;
+}
+.card__right_inf .card__right_text + .card__right_text {
+  margin-top: 23px;
+}

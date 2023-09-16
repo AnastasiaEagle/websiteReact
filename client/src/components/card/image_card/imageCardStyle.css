@@ -1,0 +1,14 @@
+.card__left_foto {
+  position: relative;
+}
+.card__left_foto .card__img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.card__left_foto .card__status {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 0px;
+  bottom: 5px;
+}

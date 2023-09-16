@@ -1,0 +1,10 @@
+.card__data {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.card__data .card__left_text {
+  margin-bottom: 7px;
+}
+.card__data .card__data-text {
+  color: #1693D1;
+}

@@ -1,0 +1,11 @@
+.card__social {
+  max-width: 90px;
+}
+.card__social .card__left_text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card__social .card__social_list {
+  display: flex;
+  justify-content: space-between;
+}

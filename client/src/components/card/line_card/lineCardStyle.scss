@@ -1,0 +1,57 @@
+.card__right_line{
+    width: 380px;
+    height: 38px;
+
+    .card__right_line-border{
+        max-width: 380px;
+        height: 10px;
+        border: 1px #D9D9D9 solid;
+        border-radius: 10px;
+        .card__right_line-backgrond{}
+    }
+    .card__right_line-cost{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        .card__right_min{
+            font-size: 12px;
+    
+        }
+        .card__right_max{
+            font-size: 12px;
+        }
+    }
+    .card__right_line-cont{
+        position: absolute;
+
+        .card__right_line-inf{
+            position: relative;
+            background-color: #1B1B1B;
+            color: #fff;
+            width: 94px;
+            padding: 5px;
+            border-radius: 10px;
+    
+            .card__right_line-inf_text{
+                font-size: 8px;
+                margin-bottom: 5px;
+            }
+            .card__right_line-inf_sum{
+                font-size: 12px;
+            }
+    
+            .arrow_down{
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-bottom: 13px solid #1B1B1B;
+                transform: rotate(180deg);
+                bottom: -13px;
+                left:42px
+            }
+        }
+    }
+}

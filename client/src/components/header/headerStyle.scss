@@ -1,0 +1,24 @@
+.header{
+    background: rgb(22,147,209);
+    background: linear-gradient(145deg, rgba(22,147,209,1) 0%, rgba(246,246,38,1) 100%);
+    padding-bottom: 130px;
+
+    .title{
+        text-align: center;
+
+        .title_gerb{
+            margin-top: 77px;
+            margin-bottom: 24px;
+        }
+        .title__title{
+            font-size: 50px;
+            color: #1b1b1b;
+            margin-bottom: 40px;
+        }
+        .header__example-text{
+            margin-top: 15px;
+            font-size: 12px;
+            color: #f8f8f8;
+        }
+    }
+}

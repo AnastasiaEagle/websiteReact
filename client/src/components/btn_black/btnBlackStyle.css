@@ -1,0 +1,13 @@
+.btn_black {
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  background-color: #1b1b1b;
+  padding: 20px 36px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.btn_black:hover {
+  background-color: #000;
+}

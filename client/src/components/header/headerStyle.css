@@ -1,0 +1,22 @@
+.header {
+  background: rgb(22, 147, 209);
+  background: linear-gradient(145deg, rgb(22, 147, 209) 0%, rgb(246, 246, 38) 100%);
+  padding-bottom: 130px;
+}
+.header .title {
+  text-align: center;
+}
+.header .title .title_gerb {
+  margin-top: 77px;
+  margin-bottom: 24px;
+}
+.header .title .title__title {
+  font-size: 50px;
+  color: #1b1b1b;
+  margin-bottom: 40px;
+}
+.header .title .header__example-text {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #f8f8f8;
+}

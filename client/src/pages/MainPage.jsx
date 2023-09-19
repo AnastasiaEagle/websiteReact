@@ -2,12 +2,14 @@ import { BtnBlack } from "../components/btn_black/BtnBlack"
 import { Card } from "../components/card/Card"
 import { Footer } from "../components/footer/Footer"
 import { Header } from "../components/header/header"
+import { PopUpList } from "../components/pop-up_list/PopUpList"
 
 import '../style/pages/mainPageStyle.css'
 
 export const MainPage = () =>{
     return(
         <>
+            <PopUpList />
             <Header/>
             <section className="help">
                 <div className="container">
@@ -21,7 +23,6 @@ export const MainPage = () =>{
                     </ul>
                 </div>
             </section>
-            <Card />
             <Footer />
         </>
     )

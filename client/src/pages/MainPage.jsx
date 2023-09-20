@@ -9,7 +9,7 @@ import '../style/pages/mainPageStyle.css'
 export const MainPage = () =>{
     return(
         <>
-            <PopUpList />
+            {/* <PopUpList /> */}
             <Header/>
             <section className="help">
                 <div className="container">

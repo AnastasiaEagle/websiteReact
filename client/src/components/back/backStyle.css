@@ -1,0 +1,11 @@
+.back .back__link {
+  display: flex;
+  align-items: center;
+}
+.back .back__link img {
+  margin-right: 30px;
+}
+.back .back__link .back-text {
+  font-size: 20;
+  font-weight: bold;
+}

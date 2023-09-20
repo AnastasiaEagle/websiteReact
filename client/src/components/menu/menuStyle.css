@@ -38,3 +38,24 @@
   background: rgb(22, 147, 209);
   background: linear-gradient(145deg, rgb(22, 147, 209) 0%, rgb(246, 246, 38) 100%);
 }
+
+.infoPage {
+  box-shadow: 1px 16px 15px -15px rgba(34, 60, 80, 0.2);
+  padding-bottom: 21px;
+}
+.infoPage .menu {
+  padding-left: 0;
+}
+.infoPage .menu .menu__list .menu__list-menu .menu__list-menu_item .menu__link {
+  color: #1b1b1b;
+}
+.infoPage .menu .menu__list-auth .menu__list-auth_register .menu__link {
+  color: #2b2b2b;
+}
+.infoPage .menu .menu__list-auth .menu__list-auth_login .menu__login-btn {
+  color: #fff;
+  background-color: #2b2b2b;
+}
+.infoPage .menu .menu__list-auth .menu__list-auth_login .menu__login-btn:hover {
+  background-color: #3c3c3c;
+}

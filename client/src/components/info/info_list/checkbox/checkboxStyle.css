@@ -1,0 +1,22 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkbox .checkbox__box {
+  width: 18px;
+  height: 18px;
+  border: hsla(0, 0%, 20%, 0.8) 1px solid;
+  border-radius: 5px;
+  margin-right: 16px;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+}
+.checkbox .checkbox__box.active {
+  background: linear-gradient(145deg, rgb(22, 147, 209) 0%, rgb(246, 246, 38) 100%);
+  border: none;
+}
+.checkbox .checjbox__text {
+  font-size: 18px;
+}

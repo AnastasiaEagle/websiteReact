@@ -1,0 +1,24 @@
+.checkbox{
+    display: flex;
+    align-items: center;
+
+    .checkbox__box{
+        width: 18px;
+        height: 18px;
+        border: hsla(0, 0%, 20%, 0.80) 1px solid;
+        border-radius: 5px;
+        margin-right: 16px;
+        text-align: center;
+        align-items: center;
+        font-weight: bold;
+        color: #fff;
+
+        &.active{
+            background: linear-gradient(145deg, rgba(22,147,209,1) 0%, rgba(246,246,38,1) 100%);
+            border: none;
+        }
+    }
+    .checjbox__text{
+        font-size: 18px;
+    }
+}

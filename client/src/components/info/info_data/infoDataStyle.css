@@ -1,0 +1,11 @@
+.info-data {
+  display: flex;
+  align-items: center;
+}
+.info-data .info-data__text {
+  margin-right: 5px;
+  font-weight: bold;
+}
+.info-data .info-data__data {
+  color: #1693D1;
+}

@@ -1,10 +1,9 @@
-import { Back } from "../components/back/Back"
+import '../style/pages/infoPageStyle.css'
+
 import { Footer } from "../components/footer/Footer"
 import { Menu } from "../components/menu/menu"
-import { BtnBlack } from "../components/btn_black/BtnBlack"
-
-import '../style/pages/infoPageStyle.css'
 import { Info } from "../components/info/Info"
+import { InfoHeader } from "../components/info_header/InfoHeader"
 
 export const InfoPage = () =>{
     return(
@@ -14,17 +13,8 @@ export const InfoPage = () =>{
                     <Menu/>
                 </div>
             </div>
-            <section className="info__header">
-                <div className="container">
-                    <ul className="info__list">
-                        <Back />
-                        <h1 className="info__title">
-                            BO Ukraine Alive
-                        </h1>
-                        <BtnBlack text={"Зробити донат"}/>
-                    </ul>
-                </div>
-            </section>
+            <InfoHeader/>
+
             <Info />
             <Footer />
         </>

@@ -8,6 +8,15 @@
   font-size: 16px;
   transition: all 0.5s;
 }
+.btn_black.white {
+  background-color: rgba(0, 0, 0, 0);
+  color: #000;
+  border: #000 1px solid;
+  margin-left: 80px;
+}
+.btn_black.white:hover {
+  color: #fff;
+}
 .btn_black:hover {
   background-color: #000;
 }

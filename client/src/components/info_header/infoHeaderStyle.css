@@ -1,0 +1,16 @@
+.info__header {
+  margin: 40px 0;
+}
+.info__header .info__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.info__header .info__list .info__title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.info__header .info__header_line {
+  color: rgba(0, 0, 0, 0.2509803922);
+}

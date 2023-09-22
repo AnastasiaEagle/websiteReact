@@ -1,0 +1,26 @@
+.info {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  margin-bottom: 80px;
+}
+.info .info__card {
+  display: grid;
+  grid-template-columns: 180px 200px;
+  grid-gap: 20px;
+}
+.info .info__right {
+  max-width: 380px;
+  margin-bottom: 80px;
+}
+.info .donat {
+  margin-top: 40px;
+}
+.info .donat .donat__title {
+  font-style: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.info .donat .donate__text {
+  font-style: 18px;
+  margin-bottom: 40px;
+}

@@ -1,3 +1,5 @@
+import './infoImageStyle.css'
+
 export const InfoImage = () =>{
     return(
         <div className="info-image">

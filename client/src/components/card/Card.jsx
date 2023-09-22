@@ -1,7 +1,7 @@
 import { DataCard } from "./data_card/DataCard"
 import { ImageCard } from "./image_card/ImageCard"
 import { InfCard } from "./inf_card/InfCard"
-import { LineCard } from "./line_card/LineCard"
+import { LineCard } from "../line_card/LineCard"
 import { SocialCard } from "./social_card/SocialCard"
 
 import './cardStyle.css'

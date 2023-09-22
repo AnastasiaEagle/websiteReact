@@ -8,6 +8,17 @@
     font-size: 16px;
     transition: all .5s;
 
+    &.white{
+        background-color: #00000000;
+        color: #000;
+        border: #000 1px solid;
+        margin-left: 80px;
+
+        &:hover{
+            color: #fff;
+        }
+    }
+
     &:hover{
         background-color: #000;
     }
